@@ -7,7 +7,7 @@ public class CalculatorLines {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите выражение в виде:" + "\n\"a\" + \"b\", \"a\" - \"b\", \"a\" * b, \"a\" / b");
         String input = scan.nextLine();
-        // Считываем строку полностью;
+        // Считываем строку полностью
         while (!input.isEmpty()) {
             String[] linesInput = Separation.sep(input);
             String operation = linesInput[1];
